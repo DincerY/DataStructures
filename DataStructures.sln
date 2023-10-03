@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Trie", "DataStructures.Trie\DataStructures.Trie.csproj", "{DAEED566-5DE8-4748-8322-A8D859E2F0CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Trie", "DataStructures.Trie\DataStructures.Trie.csproj", "{DAEED566-5DE8-4748-8322-A8D859E2F0CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.LinkedList", "DataStructures.LinkedList\DataStructures.LinkedList.csproj", "{93C7484D-D1F0-4434-B125-A850D90F1D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.LinkedList", "DataStructures.LinkedList\DataStructures.LinkedList.csproj", "{93C7484D-D1F0-4434-B125-A850D90F1D64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.QueueStack", "DataStructures.QueueStack\DataStructures.QueueStack.csproj", "{AA004EF2-58D2-42ED-87C0-4345AC4CA014}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.SortedList", "DataStructures.SortedList\DataStructures.SortedList.csproj", "{D491259A-15D4-45C2-9E4C-194B41920B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualAndHashCode", "EqualAndHashCode\EqualAndHashCode.csproj", "{5CE0456B-2413-4553-8E81-3D4D0A2B8478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{93C7484D-D1F0-4434-B125-A850D90F1D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93C7484D-D1F0-4434-B125-A850D90F1D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93C7484D-D1F0-4434-B125-A850D90F1D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA004EF2-58D2-42ED-87C0-4345AC4CA014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA004EF2-58D2-42ED-87C0-4345AC4CA014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA004EF2-58D2-42ED-87C0-4345AC4CA014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA004EF2-58D2-42ED-87C0-4345AC4CA014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D491259A-15D4-45C2-9E4C-194B41920B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D491259A-15D4-45C2-9E4C-194B41920B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D491259A-15D4-45C2-9E4C-194B41920B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D491259A-15D4-45C2-9E4C-194B41920B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE0456B-2413-4553-8E81-3D4D0A2B8478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE0456B-2413-4553-8E81-3D4D0A2B8478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE0456B-2413-4553-8E81-3D4D0A2B8478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE0456B-2413-4553-8E81-3D4D0A2B8478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
