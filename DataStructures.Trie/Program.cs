@@ -9,7 +9,7 @@ using DataStructures.Trie;
 
 //trie.Print();
 
-DenemeTrie denemeTrie = new();
+Trie denemeTrie = new();
 denemeTrie.Add("ali");
 denemeTrie.Add("alp");
 
